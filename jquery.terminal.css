@@ -14,6 +14,9 @@
  *
  * Date: Sat, 18 Apr 2020 05:52:00 +0000
  */
+:root {
+    --size: 1.5;
+}
 .terminal .terminal-output .format, .cmd .format,
 .cmd-prompt, .cmd-prompt div {
     display: inline-block;
