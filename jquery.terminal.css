@@ -634,7 +634,7 @@ terminal .terminal-output > div {
     --color: var(--link-color, #0F60FF);
 }
 .terminal .terminal-output > :not(.raw) a[href].terminal-inverted {
-    background: var(--color, #ccc);
+    background: var(--color, #1e1);
 }
 .terminal .terminal-output > :not(.raw) a[href]:hover, .cmd a[href]:hover {
     background-color: #0F60FF;
@@ -878,14 +878,14 @@ terminal .terminal-output > div {
     border: 1px solid transparent;
 }
 .cmd-cursor img {
-    border-color: #ccc;
-    border-color: var(--color, #ccc);
+    border-color: #1e1;
+    border-color: var(--color, #1e1);
 }
 .terminal-output svg.terminal-broken-image {
     height: calc(var(--size, 1) * 14px);
 }
 .terminal-output svg.terminal-broken-image use {
-    fill: var(--color, #ccc);
+    fill: var(--color, #1e1);
 }
 .terminal-error {
     --color: var(--error-color);
@@ -899,8 +899,8 @@ terminal .terminal-output > div {
 .terminal-glow [data-text] span,
 .terminal-glow .terminal-output > div span,
 .terminal-glow .terminal-output > div a[href] {
-    text-shadow: 1px 1px 5px #ccc;
-    text-shadow: 1px 1px 5px var(--color, #ccc);
+    text-shadow: 1px 1px 5px #1e1;
+    text-shadow: 1px 1px 5px var(--color, #1e1);
 }
 /* is_bottom detection */
 .terminal-scroll-marker {
