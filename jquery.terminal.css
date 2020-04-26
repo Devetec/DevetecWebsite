@@ -133,7 +133,7 @@ body.full-screen-terminal .terminal {
 }
 .terminal .inverted, .cmd.cmd.cmd .inverted,
 .terminal .terminal-inverted, .cmd.cmd.cmd .cmd-inverted {
-    background-color: #aaa !important;
+    background-color: #1e1 !important;
     color: #000 !important;
 }
 .terminal .terminal-output > :not(.raw) a[href] span,
@@ -179,8 +179,8 @@ body.full-screen-terminal .terminal {
                 animation: terminal-blink 1s infinite linear;
 }
 .bar.terminal .inverted, .bar.cmd .cmd-inverted {
-    box-shadow: -2px 0 0 -1px #aaa;
-    box-shadow: -2px 0 0 -1px var(--original-color, #aaa);
+    box-shadow: -2px 0 0 -1px #1e1;
+    box-shadow: -2px 0 0 -1px var(--original-color, #1e1);
 }
 .terminal .terminal .terminal-output > div > div, .cmd .cmd-prompt {
     display: block;
@@ -214,7 +214,7 @@ body.full-screen-terminal .terminal {
 }
 .terminal-output > :not(.raw) span:not(.token):not(.inverted):not(.terminal-inverted):not(.cmd-inverted):not(.terminal-error):not(.emoji),
 .cmd span:not(.cmd-inverted):not(.token):not(.emoji) {
-    color: #aaa;
+    color: #1e1;
     background-color: #000;
 }
 .cmd span.cmd-prompt, .cmd .cmd-prompt span {
@@ -284,7 +284,7 @@ terminal .terminal-output > div {
     border-collapse: collapse;
 }
 .terminal td {
-    border: 1px solid #aaa;
+    border: 1px solid #1e1;
 }
 .cmd span[data-text]:not(.emoji) span {
     background-color: inherit !important;
@@ -308,7 +308,7 @@ terminal .terminal-output > div {
  * so span can have --color for selection
  */
 .cmd {
-    --original-color: var(--color, #aaa);
+    --original-color: var(--color, #1e1);
 }
 .cmd a[href] {
     --original-color: var(--link-color, #0F60FF);
@@ -328,8 +328,8 @@ terminal .terminal-output > div {
 }
 @-moz-keyframes terminal-blink {
     0%, 50% {
-        background-color: #aaa;
-        background-color: var(--original-color, #aaa);
+        background-color: #1e1;
+        background-color: var(--original-color, #1e1);
         color: #000;
         color: var(--background, #000);
     }
@@ -340,8 +340,8 @@ terminal .terminal-output > div {
 }
 @keyframes terminal-blink {
     0%, 50% {
-        background-color: #aaa;
-        background-color: var(--original-color, #aaa);
+        background-color: #1e1;
+        background-color: var(--original-color, #1e1);
         color: #000;
         color: var(--background, #000);
     }
@@ -353,13 +353,13 @@ terminal .terminal-output > div {
 /* GLOW ANIMATION */
 @-webkit-keyframes terminal-glow {
     0%, 50% {
-        background-color: #aaa;
-        background-color: var(--original-color, #aaa);
+        background-color: #1e1;
+        background-color: var(--original-color, #1e1);
         color: #000;
         color: var(--background, #000);
-        box-shadow: 0 0 3px #aaa;
-        -webkit-box-shadow: 0 0 3px var(--color, #aaa);
-        box-shadow: 0 0 3px var(--color, #aaa);
+        box-shadow: 0 0 3px #1e1;
+        -webkit-box-shadow: 0 0 3px var(--color, #1e1);
+        box-shadow: 0 0 3px var(--color, #1e1);
     }
     50.1%, 100% {
         background-color: inherit;
@@ -370,13 +370,13 @@ terminal .terminal-output > div {
 }
 @-moz-keyframes terminal-glow {
     0%, 50% {
-        background-color: #aaa;
-        background-color: var(--original-color, #aaa);
+        background-color: #1e1;
+        background-color: var(--original-color, #1e1);
         color: #000;
         color: var(--background, #000);
-        box-shadow: 0 0 3px #aaa;
-        -moz-box-shadow: 0 0 3px var(--color, #aaa);
-        box-shadow: 0 0 3px var(--color, #aaa);
+        box-shadow: 0 0 3px #1e1;
+        -moz-box-shadow: 0 0 3px var(--color, #1e1);
+        box-shadow: 0 0 3px var(--color, #1e1);
     }
     50.1%, 100% {
         background-color: inherit;
@@ -387,12 +387,12 @@ terminal .terminal-output > div {
 }
 @keyframes terminal-glow {
     0%, 50% {
-        background-color: #aaa;
-        background-color: var(--original-color, #aaa);
+        background-color: #1e1;
+        background-color: var(--original-color, #1e1);
         color: #000;
         color: var(--background, #000);
-        box-shadow: 0 0 3px #aaa;
-        box-shadow: 0 0 3px var(--color, #aaa);
+        box-shadow: 0 0 3px #1e1;
+        box-shadow: 0 0 3px var(--color, #1e1);
     }
     50.1%, 100% {
         background-color: inherit;
@@ -403,8 +403,8 @@ terminal .terminal-output > div {
 /* BAR ANIMATION */
 @-webkit-keyframes terminal-bar {
   0%, 50% {
-      box-shadow: -2px 0 0 -1px #aaa;
-      box-shadow: -2px 0 0 -1px var(--original-color, #aaa);
+      box-shadow: -2px 0 0 -1px #1e1;
+      box-shadow: -2px 0 0 -1px var(--original-color, #1e1);
   }
   50.1%, 100% {
       box-shadow: none;
@@ -412,8 +412,8 @@ terminal .terminal-output > div {
 }
 @-moz-keyframes terminal-bar {
   0%, 50% {
-      box-shadow: -2px 0 0 -1px #aaa;
-      box-shadow: -2px 0 0 -1px var(--original-color, #aaa);
+      box-shadow: -2px 0 0 -1px #1e1;
+      box-shadow: -2px 0 0 -1px var(--original-color, #1e1);
   }
   50.1%, 100% {
       box-shadow: none;
@@ -421,8 +421,8 @@ terminal .terminal-output > div {
 }
 @keyframes terminal-bar {
   0%, 50% {
-      box-shadow: -2px 0 0 -1px #aaa;
-      box-shadow: -2px 0 0 -1px var(--original-color, #aaa);
+      box-shadow: -2px 0 0 -1px #1e1;
+      box-shadow: -2px 0 0 -1px var(--original-color, #1e1);
   }
   50.1%, 100% {
       box-shadow: none;
@@ -431,8 +431,8 @@ terminal .terminal-output > div {
 /* UNDERLINE ANIMATION */
 @-webkit-keyframes terminal-underline {
   0%, 50% {
-      box-shadow: 0 2px 0 #aaa;
-      box-shadow: 0 2px 0 var(--original-color, #aaa);
+      box-shadow: 0 2px 0 #1e1;
+      box-shadow: 0 2px 0 var(--original-color, #1e1);
   }
   50.1%, 100% {
       box-shadow: none;
@@ -440,8 +440,8 @@ terminal .terminal-output > div {
 }
 @-moz-keyframes terminal-underline {
   0%, 50% {
-      box-shadow: 0 2px 0 #aaa;
-      box-shadow: 0 2px 0 var(--original-color, #aaa);
+      box-shadow: 0 2px 0 #1e1;
+      box-shadow: 0 2px 0 var(--original-color, #1e1);
   }
   50.1%, 100% {
       box-shadow: none;
@@ -449,8 +449,8 @@ terminal .terminal-output > div {
 }
 @keyframes terminal-underline {
   0%, 50% {
-      box-shadow: 0 2px 0 #aaa;
-      box-shadow: 0 2px 0 var(--original-color, #aaa);
+      box-shadow: 0 2px 0 #1e1;
+      box-shadow: 0 2px 0 var(--original-color, #1e1);
   }
   50.1%, 100% {
       box-shadow: none;
@@ -489,17 +489,17 @@ terminal .terminal-output > div {
     }
     @keyframes terminal-blink {
         0%, 50% {
-            background-color: var(--original-color, #aaa);
+            background-color: var(--original-color, #1e1);
             color: var(--background, #000);
         }
         50.1%, 100% {
             background-color: var(--background, #000);
-            color: var(--original-color, #aaa);
+            color: var(--original-color, #1e1);
         }
     }
     @keyframes terminal-bar {
         0%, 50% {
-            border-left-color: var(--color, #aaa);
+            border-left-color: var(--color, #1e1);
         }
         50.1%, 100% {
             border-left-color: var(--background, #000);
@@ -507,7 +507,7 @@ terminal .terminal-output > div {
     }
     @keyframes terminal-underline {
         0%, 50% {
-            border-bottom-color: var(--color, #aaa);
+            border-bottom-color: var(--color, #1e1);
             line-height: 12px;
             line-height: calc(var(--size, 1) * 12px);
         }
@@ -528,12 +528,12 @@ terminal .terminal-output > div {
     }
     @-ms-keyframes terminal-blink {
         0%, 50% {
-            background-color: #aaa;
+            background-color: #1e1;
             color: #000;
         }
         50.1%, 100% {
             background-color: #000;
-            color: #aaa;
+            color: #1e1;
         }
     }
 }
@@ -555,7 +555,7 @@ terminal .terminal-output > div {
 .cmd > div::-moz-selection,
 .cmd > div span::-moz-selection,
 .cmd .prompt span::-moz-selection {
-    background-color: #aaa;
+    background-color: #1e1;
     color: #000;
 }
 /* this don't work in Chrome
@@ -673,7 +673,7 @@ terminal .terminal-output > div {
     .cmd,
     .cmd span:not(.cmd-inverted):not(.token):not(.emoji),
     .cmd div {
-        color: var(--color, #aaa);
+        color: var(--color, #1e1);
         background-color: var(--background, #000);
     }
     .terminal span[style*="--length"] {
@@ -704,14 +704,14 @@ terminal .terminal-output > div {
         top: calc(var(--size, 1) * 14 * var(--cursor-line, 0) * 1px);
     }
     .terminal .inverted, .cmd.cmd.cmd .inverted, .cmd.cmd.cmd .cmd-inverted {
-        background-color: var(--color, #aaa) !important;
+        background-color: var(--color, #1e1) !important;
         color: var(--background, #000) !important;
     }
     .cmd div {
         min-height: calc(var(--size, 1) * 14px);
     }
     .cmd .cmd-cursor.cmd-blink {
-        color: var(--color, #aaa);
+        color: var(--color, #1e1);
         background-color: var(--background, #000);
     }
     .cmd .cmd-cursor.cmd-blink span:not(.emoji) span,
@@ -746,7 +746,7 @@ terminal .terminal-output > div {
     .cmd > div::-moz-selection,
     .cmd > div span::-moz-selection,
     .cmd .cmd-prompt span::-moz-selection {
-        background-color: var(--color, #aaa);
+        background-color: var(--color, #1e1);
         color: var(--background, #000);
     }
     .terminal .terminal-output div div a::-moz-selection {
@@ -859,7 +859,7 @@ terminal .terminal-output > div {
     white-space: nowrap;
 }
 .cmd .cursor-wrapper li:hover {
-    background: #aaa;
+    background: #1e1;
     color: #000;
 }
 .cursor-wrapper {
